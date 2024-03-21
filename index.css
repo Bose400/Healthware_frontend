@@ -7,6 +7,127 @@ h1 {
     font-weight: 600;
     font-style: italic;
 }
-p {
-    color: red;
-}
+#text1 {
+    font-size:15px ;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color:pink;
+    font-weight: 600;
+    font-style: italic;
+    }
+
+#des {
+    font-size:15px ;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color:green;
+    font-weight: 600;
+    font-style: italic;}
+
+    .textgroup {
+        font-size:15px ;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        color:blue;
+        font-weight: 600;
+        font-style: normal;}
+        div p{
+            background-color: aqua;
+        }
+        div p, h1{
+            background-color: crimson;
+        }
+        ul > li {
+            list-style-type: none;
+            color: #000;
+            font-style: italic;
+            
+        
+        }
+        nav {
+            background-color: #000000;
+        }
+        nav ul {
+            margin: 0;
+            padding:20px;
+            list-style-type: none;
+            display: flex;
+            justify-content:space-between ;
+        }
+        nav{
+            background-color: 
+        }
+
+        nav ul li{
+
+            display: inline-block;
+            /* magin-right: 10px;*/
+            justify-content:space-between;
+            
+                
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            border-radius: 10px;
+            background-color:#f2f2f2;
+
+        }
+        nav ul li a:hover {
+            background-color: ;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            background-image: url();
+            background-position: center;
+            background-size: cover;
+        }
+        #hero-container{
+            width: 200ppx;
+            height: 350px;
+            border: 1px solid#333333;
+            margin: 0px;
+            background-color: #ffffff;
+        }
+        .container{
+            display: flex;
+            flex-direction: column-reverse;
+            height: 100vh;
+        }
+
+        .top-row, .bottom-row{
+        
+         }
+
+        
+        .bottom{
+
+        }
+        .positioned {
+            background-color: aqua;
+          top: 50px;
+          left: 100px;
+          width: 100px;
+          height: 100px;
+          position: relative;
+        }
+        .box-animation{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            animation: grow-shrink 2s infinite alternate;
+        }
+        @keyframes grow-shrink {
+            0%{
+
+            }
+                
+            
+        }
+        
+        
+
+        
+        
+    
