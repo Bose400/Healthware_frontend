@@ -42,7 +42,7 @@ h1 {
         
         }
         nav {
-            background-color: #000000;
+            background-color: #ffffff;
         }
         nav ul {
             margin: 0;
@@ -79,9 +79,11 @@ h1 {
             margin: 0;
             padding: 0;
             background-color: #ffffff;
-            background-image: url();
-            background-position: center;
-            background-size: cover;
+
+            background-image: url("./img/doc.jpg");
+            background-repeat: no-repeat;
+            background-position: top;
+            
         }
         #hero-container{
             width: 200ppx;
